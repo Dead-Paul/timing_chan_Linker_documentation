@@ -1,0 +1,53 @@
+Version 5.2:
+All commands have been improved.
+Improved reminders, now they are deleted immediately after being used during a couple.
+The /tommorow command has been improved, when requesting pairs for tomorrow on Friday, the bot writes that there are no pairs tomorrow, but they will be on Monday.
+Added flashers in the form of additional pairs that are subject to editing.
+Multi-line reminders and couple links.
+
+Version 5.1:
+Added /FAQ command and removed /help command, now all frequently asked questions are collected there.
+Added the ability to remove an admin.
+Added /monitoring command to view the original schedule.
+
+Version 5.0:
+Completely rewritten code and redesigned commands.
+All the data that the bot needs is stored in an excel table, it can use and edit it.
+When a user sends a message with text similar to "Where is the link" - the bot sends a link to a couple,
+if the question is not asked during the couple, then the bot writes that it’s a change now, if it’s a day off, then it will write that it’s not now
+time to look for links.
+Now you can send a link to the group with the /write command.
+The /distribution command has been removed, now the distribution is activated from the receipt of text messages in the bot.
+More stickers. The bot now has 120 stickers distributed by type and available for download to everyone.
+The syntax has been changed and now the buttons and other text from the bot are easier to perceive.
+
+Version 4.0:
+Added the /write command to write to the group on behalf of the bot.
+Added /today and /tomorrow commands to view the schedule for today and tomorrow.
+Removed /ban command.
+Added /cancel command to cancel an action.
+Added /help command to explain some commands.
+Rewritten and optimized code, improved work with files.
+
+Version 3.2:
+Added /ban command (Bot does not respond to messages from banned users).
+The editing of the schedule has been changed again, the choice of the day is also carried out by buttons,
+You can see which couples are currently on the schedule.
+
+Version 3.0:
+Posting added.
+Now, at startup, the bot records people who need to send links and sends them out in time
+(the user chooses to Do or Not to do the mailing).
+Editing has been changed, now the choice of a pair for which to replace is also carried out by buttons,
+introduced indexing for the names of pairs and their links.
+The mechanics of adding admins has been developed, reminders have been introduced, but working with them is quite problematic.
+
+Version 2.0:
+Added schedule editing command.
+Now you can edit the schedule through the bot, but editing is extremely inconvenient,
+after all, you need to manually write the names of objects and send the days of the week by numbers,
+the link must be changed separately at each mention of the subject in the schedule.
+
+Version 1.0:
+A bot has been created that can display the schedule and links.
+The schedule and links are stored in a text document (in a notepad) and edited through it.
