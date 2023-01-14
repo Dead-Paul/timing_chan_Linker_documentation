@@ -1,0 +1,5 @@
+This Bot was created for distribution links to PI-112. It was coded on Python. We use Python built-in libraries, TelebotAPI (from Telegram creators) and OpenPyXl.
+Bot working on PythonAnywhere free servers.
+Last update - Version 5.4
+Created and documentaded by Paul Niparu;
+Stickers and avatar by lili_ilil.
